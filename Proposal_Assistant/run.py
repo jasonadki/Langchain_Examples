@@ -9,6 +9,11 @@ from langchain.chains import LLMChain
 from dotenv import load_dotenv, find_dotenv
 import textwrap
 
+import streamlit as st
+from PyPDF2 import PdfReader
+
+import os
+import pickle
 
 
 
@@ -18,11 +23,41 @@ load_dotenv(find_dotenv())
 
 
 
-def create_db_from_pdf(pdf_path: str) -> FAISS:
-    loader = PyPDFLoader(pdf_path)
-    pages = loader.load_and_split()
-    db = FAISS.from_documents(pages, OpenAIEmbeddings())
-    return db
+def create_db_from_pdf(pdf: str) -> FAISS:
+    # Get path to PDF
+    
+    
+    
+    if pdf is not None:
+        pdf_reader = PdfReader(pdf)
+        
+        text = ""
+        for page in pdf_reader.pages:
+            text += page.extract_text()
+ 
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=1000,
+            chunk_overlap=200,
+            length_function=len
+            )
+        chunks = text_splitter.split_text(text=text)
+ 
+        # # embeddings
+        store_name = pdf.name[:-4]
+        st.write(f'{store_name}')
+        # st.write(chunks)
+ 
+        if os.path.exists(f"{store_name}.pkl"):
+            with open(f"{store_name}.pkl", "rb") as f:
+                VectorStore = pickle.load(f)
+            # st.write('Embeddings Loaded from the Disk')s
+        else:
+            embeddings = OpenAIEmbeddings()
+            VectorStore = FAISS.from_texts(chunks, embedding=embeddings)
+            with open(f"{store_name}.pkl", "wb") as f:
+                pickle.dump(VectorStore, f)
+                
+        return VectorStore
 
 
 def get_response_from_query(db, query, k=4):
@@ -66,11 +101,28 @@ def get_response_from_query(db, query, k=4):
     return response, docs
 
 
-if __name__ == "__main__":
-    # Example usage:
-    pdf_url = "Resources/Halcyon - Aeolus.pdf"
-    db = create_db_from_pdf(pdf_url)
+def main():
+    st.title("Proposal Assistant")
+    
+    pdf = st.file_uploader("Upload a PDF", type="pdf")
+    
+    if pdf is not None:
+        db = create_db_from_pdf(pdf)
+        query = st.text_input("Ask a question")
+        if query:
+            response, docs = get_response_from_query(db, query)
+            st.write(response, docs)
+            # st.write(docs)
+            
 
-    query = "How much will the proposal cost?"
-    response, docs = get_response_from_query(db, query)
-    print(response, docs)
+
+if __name__ == "__main__":
+    # # Example usage:
+    # pdf_url = "Resources/Halcyon - Aeolus.pdf"
+    # db = create_db_from_pdf(pdf_url)
+
+    # query = "How much will the proposal cost?"
+    # response, docs = get_response_from_query(db, query)
+    # print(response, docs)
+    
+    main()

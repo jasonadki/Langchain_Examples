@@ -218,6 +218,8 @@ def main():
 
     # Load .env file
     load_dotenv(find_dotenv())
+    
+    
     st.title("Cyber Digital Revolution: Code Security Reviewer")
 
     # Create empty results.json
