@@ -111,7 +111,11 @@ def main():
         query = st.text_input("Ask a question")
         if query:
             response, docs = get_response_from_query(db, query)
-            st.write(response, docs)
+            # str(doc.metadata["page"]) + ":", doc.page_content[:800]
+            st.write(response)
+            for doc in docs:
+                st.write(str(doc))
+                st.write()
             # st.write(docs)
             
 
