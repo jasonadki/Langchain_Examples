@@ -2,5 +2,5 @@
 LangchainExampleApplications
 
 
-To run create a .env file with the keys in the format:\n
+To run create a .env file with the keys in the format:<br/>
 OPENAI_API_KEY=XXX
