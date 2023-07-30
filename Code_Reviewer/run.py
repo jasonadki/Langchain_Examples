@@ -75,21 +75,8 @@ def process_file(dirpath, file, embeddings):
 
 
     # Load the template that is prompting the agent
-    template='''
-            You are a code peer reviewer and a software security reviewer. 
-            I want you to write me a summary of what the code does and whether there are any considerable
-            security concerns within the code that would cause harm to my computer or the network my computer is on.
-            It is crucial that your responses include all fields below, leaving none missing. The format of your response should be a python dictionary like the following:
-
-            {
-            "Summary": <Short summary of what the code does>
-            "Security_Concerns": <Whether or not there are security concerns and if there are what are they>
-            "Security_Rating": <A security rating from the following: [Very Low, Low, Moderate, High, Very High]>
-            "Justification": <Why you gave it the security rating chosen>
-            }
-
-            Remember, it's absolutely critical to include all fields in your response and in the dictionary format.
-            '''
+    with open('snippet_prompt_template.txt', 'r') as file:
+        template= file.read()
 
     # Create a Retrieval Chain
     qa = ConversationalRetrievalChain.from_llm(
@@ -160,21 +147,9 @@ def final_summary(path, embeddings):
 
 
     # Load the template that is prompting the agent
-    template='''
-            You are a code peer reviewer and a software security reviewer. 
-            I want you to write me a summary of what the code does and whether there are any considerable
-            security concerns within the code that would cause harm to my computer or the network my computer is on.
-            It is crucial that your responses include all fields below, leaving none missing. The format of your response should be a python dictionary like the following:
-
-            {
-            "Summary": <Short summary of what the code does>
-            "Security_Concerns": <Whether or not there are security concerns and if there are what are they>
-            "Security_Rating": <A security rating from the following: [Very Low, Low, Moderate, High, Very High]>
-            "Justification": <Why you gave it the security rating chosen>
-            }
-
-            Remember, it's absolutely critical to include all fields in your response and in the dictionary format.
-            '''
+    with open('final_prompt_template.txt', 'r') as file:
+        template= file.read()
+        
 
     # Create a Retrieval Chain
     qa = ConversationalRetrievalChain.from_llm(
