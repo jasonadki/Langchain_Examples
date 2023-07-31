@@ -1,0 +1,19 @@
+{
+    "Information": [
+        {
+            "UUID": "8cb045ec-87e4-4ee7-87a9-34c918a691a9",
+            "Description": "The fact the DOF would have interest in this topic area",
+            "Code": "Green"
+        },
+        {
+            "UUID": "d7760aa5-5ed2-44cb-8a52-f46790eca4ab",
+            "Description": "Correlation to funding account numbers and the DOF",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "c13868ef-af74-473b-9cf8-f6d80581605b",
+            "Description": "Information revealing funding obligations and expenditure rates associated with this project",
+            "Code": "Yellow"
+        }
+    ]
+}

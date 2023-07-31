@@ -1,0 +1,119 @@
+{
+    "Information": [
+        {
+            "UUID": "ed220421-830f-41eb-a798-1ce5a6f3fea7",
+            "Description": "The general infrastructure supporting the project",
+            "Code": "Green"
+        },
+        {
+            "UUID": "b033c8bb-2e19-485b-aab8-1beace74b292",
+            "Description": "Detailed infrastructural blueprints and potential weaknesses",
+            "Code": "Red"
+        },
+        {
+            "UUID": "cbc0efa1-f09e-434c-8fef-60682c022883",
+            "Description": "Revealing the broad professional backgrounds and disciplines involved in the team",
+            "Code": "Green"
+        },
+        {
+            "UUID": "2ec51b07-0002-442b-906d-47418d7a486a",
+            "Description": "Detailed profiles and personal information of team members",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "28f1b72f-e225-48f2-9aad-59941013a7f0",
+            "Description": "Public acknowledgement of vendors or external entities participating in the project",
+            "Code": "Green"
+        },
+        {
+            "UUID": "e131d179-037c-4c33-90d6-d6a20f13413c",
+            "Description": "Detailed contracts, specific equipment or services provided by vendors",
+            "Code": "Red"
+        },
+        {
+            "UUID": "abe6ec32-80dd-45ae-adf4-ab62cb687a15",
+            "Description": "Publicly available information regarding project compliance with laws and regulations",
+            "Code": "Green"
+        },
+        {
+            "UUID": "1716ac75-f042-42cd-862b-11057c044075",
+            "Description": "Detailed documentation about legal challenges or disputes",
+            "Code": "Red"
+        },
+        {
+            "UUID": "2872414d-229f-4ba6-beaa-4c3baa2a81a0",
+            "Description": "Broad geographical areas where project operations",
+            "Code": "Green"
+        },
+        {
+            "UUID": "c6c0da82-674a-4c3b-b652-10dd3fe621d8",
+            "Description": "occurring",
+            "Code": "Green"
+        },
+        {
+            "UUID": "fbc32a85-066a-49e7-b6b2-4449cf23731f",
+            "Description": "Specific locations",
+            "Code": "Red"
+        },
+        {
+            "UUID": "c8535ea3-d378-4348-80d1-77b4146d8d7a",
+            "Description": "latitude and longitude coordinates",
+            "Code": "Red"
+        },
+        {
+            "UUID": "7fa07f0f-44ab-4c6d-a211-b7a8f8b125af",
+            "Description": "or sensitive regional details",
+            "Code": "Red"
+        },
+        {
+            "UUID": "b0ac9518-ee96-453c-8bbd-96d0ff2689d5",
+            "Description": "General explanation of security protocols to assure stakeholders",
+            "Code": "Green"
+        },
+        {
+            "UUID": "b31ad111-aebd-42fc-9bee-7d186596e436",
+            "Description": "Specific information about system vulnerabilities, penetration tests, or breaches",
+            "Code": "Red"
+        },
+        {
+            "UUID": "52f6ba9e-26ef-4b5a-ad32-f6d25c3da320",
+            "Description": "General themes and messages shared with media",
+            "Code": "Green"
+        },
+        {
+            "UUID": "71310f0f-d449-43b7-8251-122ba9435bb6",
+            "Description": "Unpublished press releases, off-the-record conversations, or strategic media plans",
+            "Code": "Red"
+        },
+        {
+            "UUID": "45b189a7-1c88-448f-b6d5-665101fef203",
+            "Description": "A high-level timeline for project goals",
+            "Code": "Green"
+        },
+        {
+            "UUID": "10d1d140-843a-4dc0-a7cd-02d00b503cf7",
+            "Description": "Detailed project schedule with specific dates for sensitive milestones",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "8c68093c-e66f-4a3a-9c09-9da4af7a2141",
+            "Description": "Broad strategy of the project's procurement process",
+            "Code": "Green"
+        },
+        {
+            "UUID": "238c80c0-49a3-42fa-b9bf-67dcbbefba1d",
+            "Description": "Specific suppliers, cost data, or contractual agreements",
+            "Code": "Red"
+        },
+        {
+            "UUID": "a1f123c5-a3e8-4df0-b9a3-d8f83cef3e43",
+            "Description": "Assurance of adherence to data protection standards",
+            "Code": "Green"
+        },
+        {
+            "UUID": "1c7a0696-f26d-424c-8a18-2ef4f043c411",
+            "Description": "Detailed technical specs of data storage, encryption, or data breaches",
+            "Code": "Red"
+        }
+    ]
+}

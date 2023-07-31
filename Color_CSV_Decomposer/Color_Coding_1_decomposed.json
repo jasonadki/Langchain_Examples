@@ -1,0 +1,369 @@
+{
+    "Information": [
+        {
+            "UUID": "29e42b24-6a6a-480f-a343-73500a8b1866",
+            "Description": "The fact the DOF would have interest in this topic area",
+            "Code": "Green"
+        },
+        {
+            "UUID": "eb2f0ee4-40a1-4f5f-b350-d8a2940bc9a1",
+            "Description": "Correlation to funding account numbers and the DOF",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "11a7c9de-4502-4378-bf89-a03a0aa15405",
+            "Description": "Information revealing funding obligations and expenditure rates associated with this project",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "d38ede54-f068-412d-9113-fbb6d2f4ccb5",
+            "Description": "Successful field operations demonstrating the project's potential",
+            "Code": "Green"
+        },
+        {
+            "UUID": "dcdf31f4-047d-459d-aaad-0ce79482a996",
+            "Description": "Slight delays due to issues in coordinating field operations",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "5f6d60ca-8330-433c-9840-9d5f22dea8d7",
+            "Description": "Concerns about the project's operational feasibility due to major issues in field operations",
+            "Code": "Red"
+        },
+        {
+            "UUID": "0ea44109-a5c3-4b6e-988b-f27ec471e896",
+            "Description": "Smooth technical operations demonstrating robust system design",
+            "Code": "Green"
+        },
+        {
+            "UUID": "b7a107ff-cc2d-4d68-9154-66263a8e8237",
+            "Description": "Slight project timeline delays due to minor technical issues",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "77f4e02d-25a4-4c8a-a129-b12516d5ed3f",
+            "Description": "Disruption in project operations due to major technical failures leading to a comprehensive system review",
+            "Code": "Red"
+        },
+        {
+            "UUID": "2fbcde00-4ab2-43d4-9b83-b54862c7923c",
+            "Description": "An effective training program for operating personnel ensuring smooth operations",
+            "Code": "Green"
+        },
+        {
+            "UUID": "d0bc43d4-a4ec-477e-b956-5b5d64560ac1",
+            "Description": "An ongoing review to refine the training program based on initial field experience",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "19d7b3ad-74be-44dc-a0bd-edf09e76be2f",
+            "Description": "Operational inefficiencies due to a lack of adequate training for the operations team",
+            "Code": "Red"
+        },
+        {
+            "UUID": "5168c9e6-3b9f-443d-a9bf-9a2fe055465a",
+            "Description": "Security protocols effectively protecting the system's modular design and rapid deployment capabilities",
+            "Code": "Green"
+        },
+        {
+            "UUID": "70516dba-f411-41b8-8002-a959074967b9",
+            "Description": "Minor security issues affecting system deployment agility",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "999daecf-54e4-438f-9fb4-0f85c24ab1f1",
+            "Description": "Major security breaches causing significant delays or inability to deploy the system effectively",
+            "Code": "Red"
+        },
+        {
+            "UUID": "121b95c6-e54d-45e5-9afc-d87154384f72",
+            "Description": "Effective security measures protecting post-mission data analysis and the system's learning capabilities",
+            "Code": "Green"
+        },
+        {
+            "UUID": "be714942-2e46-49bf-9dba-ffeab2a1eb86",
+            "Description": "Minor security vulnerabilities affecting post-mission analysis or system learning",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "1013082b-b3fc-416b-a563-89becfe4ba5b",
+            "Description": "Major security breaches preventing effective learning or enhancement of system performance",
+            "Code": "Red"
+        },
+        {
+            "UUID": "763acf81-6f8a-49b2-834b-9eb6daa75d0f",
+            "Description": "Collaborations with international partners, expanding project resources,",
+            "Code": "Green"
+        },
+        {
+            "UUID": "820c6e47-38f0-4411-8c57-42fee893ea16",
+            "Description": "The involvement of a global tech company with a recent data breach scandal,",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "d230a8d4-17a7-4d2a-bc35-dadee71bd640",
+            "Description": "Coordination issues due to the involvement of too many organizations,",
+            "Code": "Red"
+        },
+        {
+            "UUID": "e8454520-57bd-45c2-adfd-3c5f7947b4a5",
+            "Description": "Association of this project to the Department of Ocean Forces",
+            "Code": "Green"
+        },
+        {
+            "UUID": "4e33651a-f489-458d-940a-188198471e16",
+            "Description": "Associating the project with the DOF's Del Rio office",
+            "Code": "Red"
+        },
+        {
+            "UUID": "ea3dc5a9-8bcf-4e79-8576-a31264ac05d1",
+            "Description": "Collaboration between DOF and Halcyon Inc.",
+            "Code": "Green"
+        },
+        {
+            "UUID": "d256c85e-5c4f-4818-ad28-e848b9d925c7",
+            "Description": "Collaboration between DOF Del Rio and Halcyon",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "2bde8523-fd98-4e5f-baee-841c0f1a31c4",
+            "Description": "Association of Halcyon Inc. and the project name \"Seahawk\"",
+            "Code": "Red"
+        },
+        {
+            "UUID": "74f8b90b-97af-4a45-896b-72a44fd99f63",
+            "Description": "The official title ",
+            "Code": "Green"
+        },
+        {
+            "UUID": "68cb0225-cf7a-4fff-be2c-f04503fe8bfc",
+            "Description": "Sea Guardian Project",
+            "Code": "Green"
+        },
+        {
+            "UUID": "8c7082e7-5289-47a9-9922-86bf48b382d4",
+            "Description": " is ",
+            "Code": ""
+        },
+        {
+            "UUID": "ba9b8eb3-655c-4b8b-83aa-502659baa55f",
+            "Description": "Green",
+            "Code": "Green"
+        },
+        {
+            "UUID": "1b83ca98-9049-4b1c-8182-aafb86d06581",
+            "Description": ". The project name ",
+            "Code": ""
+        },
+        {
+            "UUID": "a3665c7b-49fd-4398-aff2-b735302a7f9c",
+            "Description": "Seahawk",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "0e0f3fe8-2325-4e14-8aed-939ac3fa5a6a",
+            "Description": " is ",
+            "Code": ""
+        },
+        {
+            "UUID": "7dc6e7e2-3a47-4e7d-b9fb-c60090fd28bb",
+            "Description": "Yellow",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "1e4fbcdf-a2e9-46a8-a62d-5850a7d335cd",
+            "Description": ".",
+            "Code": ""
+        },
+        {
+            "UUID": "1c0591e6-bfbb-4020-af88-ca65d27a923c",
+            "Description": "The project's goal to enhance search and rescue operations globally",
+            "Code": "Green"
+        },
+        {
+            "UUID": "535c0e3c-ee7f-44eb-a312-3eb2fdfce68e",
+            "Description": "Data associated with Tampastan in relation to this project",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "30804219-f90f-4570-b494-03a665694984",
+            "Description": "A well-defined risk management plan reducing unexpected setbacks",
+            "Code": "Green"
+        },
+        {
+            "UUID": "e0708818-71ef-4c2a-a2c6-3541b71cc01a",
+            "Description": "Potential risks like technology failures not being adequately addressed in the risk management plan",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "02812902-6da2-488f-991f-b2a7bdf66184",
+            "Description": "Threats to the project's successful completion due to lack of a comprehensive risk management plan",
+            "Code": "Red"
+        },
+        {
+            "UUID": "68513987-449e-41c1-89b8-91611ab8f706",
+            "Description": "The revolutionary AI-driven technology for maritime search and rescue operations",
+            "Code": "Green"
+        },
+        {
+            "UUID": "be9f8807-74d7-4df0-83b2-13ca20778ce2",
+            "Description": "Concerns about AI's adaptability to different marine environments",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "256ee847-1927-48d6-bde1-23a2d4425ce9",
+            "Description": "Significant project setbacks due to AI system failures during testing",
+            "Code": "Red"
+        },
+        {
+            "UUID": "de3514c2-29ae-4466-a01e-a3d45efe811b",
+            "Description": "The integration of remote sensing technology enhancing search and rescue capabilities",
+            "Code": "Green"
+        },
+        {
+            "UUID": "2bc7b1ea-536c-4561-aa7d-78e9e85dbe5c",
+            "Description": "Refinement needed to improve communication systems' reliability under adverse conditions",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "1014918c-fc5e-4f1a-9831-a148a7faea68",
+            "Description": "Issues with remote sensing technology detecting small vessels, causing concerns about its effectiveness",
+            "Code": "Red"
+        },
+        {
+            "UUID": "4ea94802-dfc7-4916-b35f-3e9275836793",
+            "Description": "The advanced navigation system for accurate real-time tracking of rescue operations",
+            "Code": "Green"
+        },
+        {
+            "UUID": "824d5d58-3195-46ae-ade8-c24429a65061",
+            "Description": "The tracking system being fine-tuned to improve accuracy in tracking small marine vessels",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "8026ad83-bf0e-4dec-93c4-baabe233e41c",
+            "Description": "Concerns about the navigation system's reliability due to failures in delivering precise coordinates under certain conditions",
+            "Code": "Red"
+        },
+        {
+            "UUID": "243f762f-7617-482f-8732-888426d16c7c",
+            "Description": "Successful implementation and security of the hybrid power system and energy management system",
+            "Code": "Green"
+        },
+        {
+            "UUID": "bb63ca8d-3a71-4570-bcd3-cf7bd3ba40e2",
+            "Description": "Minor security concerns related to these systems",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "395f220f-5d8a-4790-af9f-a49f43daca92",
+            "Description": "Major security issues affecting system loitering time and power management",
+            "Code": "Red"
+        },
+        {
+            "UUID": "2aae7612-8f74-479b-b322-42dc3ab7b4e5",
+            "Description": "Security protocols effectively protecting the propulsion system and flight pattern algorithms",
+            "Code": "Green"
+        },
+        {
+            "UUID": "b28281ea-48fc-4afe-b4ae-39674b1293dc",
+            "Description": "Slight security vulnerabilities affecting system speed or search swath",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "65fb12da-0b2b-4c16-ad88-53fc861a0f83",
+            "Description": "Significant security threats impacting these functionalities",
+            "Code": "Red"
+        },
+        {
+            "UUID": "92e1cf5c-0eac-4d69-9d32-942ec0e62800",
+            "Description": "Security measures successfully protecting Halcyon's resilient design, triple-redundant flight systems, and self-diagnostic capabilities",
+            "Code": "Green"
+        },
+        {
+            "UUID": "7c431e1b-130d-4928-9970-f3322c64a1de",
+            "Description": "Minor security concerns in these areas",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "293be9fc-dd7d-4da6-8183-3aadfaecdc26",
+            "Description": "Major security breaches affecting survivability and safety measures",
+            "Code": "Red"
+        },
+        {
+            "UUID": "18b7ea32-fb37-43db-bed2-0344f20a1e38",
+            "Description": "Security measures effectively protecting advanced sensor technologies and the AI system",
+            "Code": "Green"
+        },
+        {
+            "UUID": "b294087d-daea-4ee5-ae09-33674426163a",
+            "Description": "Minor security vulnerabilities affecting the detection rates",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "c045122e-f34a-4a4a-99b9-16f2917729b5",
+            "Description": "Significant security threats impacting detection rates",
+            "Code": "Red"
+        },
+        {
+            "UUID": "fcfa6b08-f8bc-4826-ac44-a6806d5fd9af",
+            "Description": "Effective security measures protecting all sensor types",
+            "Code": "Green"
+        },
+        {
+            "UUID": "e9e59b18-1491-47ba-bfe4-1a76a98882c3",
+            "Description": "Minor security vulnerabilities within the sensor suite",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "515c5675-4372-4205-bcaf-8b75f4a64cf9",
+            "Description": "Significant security threats causing sensor malfunctions or inaccuracies",
+            "Code": "Red"
+        },
+        {
+            "UUID": "c6bf26f4-64f2-43ae-8bc0-af980e54a478",
+            "Description": "Successful security measures protecting the real-time sensor data, AI-powered path planning, and adaptive navigation algorithms",
+            "Code": "Green"
+        },
+        {
+            "UUID": "8eec4b8f-f823-411a-b8fe-ff686b44ac45",
+            "Description": "Minor security vulnerabilities in these areas",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "68e922cc-55c3-4b01-866c-eefc94a621e7",
+            "Description": "Significant security threats causing major failures in the autonomous navigation system",
+            "Code": "Red"
+        },
+        {
+            "UUID": "a097dfee-81d3-4ba5-97b3-fe6d6754e6a4",
+            "Description": "Effective security measures protecting the AI system and sensor suite used for detection and identification",
+            "Code": "Green"
+        },
+        {
+            "UUID": "f163ca2a-70fd-4a46-9742-9b60372b1074",
+            "Description": "Minor security vulnerabilities affecting detection accuracy",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "d0946538-1104-4770-9f80-b947e9668adc",
+            "Description": "Major security threats causing inaccurate identification or high false-positive rates",
+            "Code": "Red"
+        },
+        {
+            "UUID": "b60fee10-9215-4d5e-9a77-beecf61c8ac3",
+            "Description": "Successful security protocols ensuring effective scalability",
+            "Code": "Green"
+        },
+        {
+            "UUID": "9b897403-0b02-43d5-9200-8552a5acfa7d",
+            "Description": "Minor security issues affecting system scalability",
+            "Code": "Yellow"
+        },
+        {
+            "UUID": "14c2ae4e-4490-4744-a238-2d175e2ae8b5",
+            "Description": "Major security breaches causing inability to scale the system effectively for extensive operations",
+            "Code": "Red"
+        }
+    ]
+}
