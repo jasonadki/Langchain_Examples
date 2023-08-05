@@ -1,0 +1,11 @@
+Category,Information Revealing,Levels Associated,Remarks
+Infrastructure,Infrastructure Status,Green to Red,The general infrastructure supporting the project is Green. Detailed infrastructural blueprints and potential weaknesses are Red.
+Personnel,Team Composition,Green to Yellow,Revealing the broad professional backgrounds and disciplines involved in the team is Green. Detailed profiles and personal information of team members are Yellow.
+Vendor Relations,Vendor Participation,Green to Red,"Public acknowledgement of vendors or external entities participating in the project is Green. Detailed contracts, specific equipment or services provided by vendors are Red."
+Legal,Compliance and Regulations,Green to Red,Publicly available information regarding project compliance with laws and regulations is Green. Detailed documentation about legal challenges or disputes is Red.
+Geographic,Operational Locations,Green to Red,"Broad geographical areas where project operations are occurring is Green. Specific locations, latitude and longitude coordinates, or sensitive regional details are Red."
+System Security,Security Measures,Green to Red,"General explanation of security protocols to assure stakeholders is Green. Specific information about system vulnerabilities, penetration tests, or breaches is Red."
+Public Relations,Media Interaction,Green to Red,"General themes and messages shared with media are Green. Unpublished press releases, off-the-record conversations, or strategic media plans are Red."
+Future Plans,Project Timeline,Green to Yellow,A high-level timeline for project goals is Green. Detailed project schedule with specific dates for sensitive milestones is Yellow.
+Supply Chain,Procurement Strategy,Green to Red,"Broad strategy of the project's procurement process is Green. Specific suppliers, cost data, or contractual agreements are Red."
+Data Management,Data Protection,Green to Red,"Assurance of adherence to data protection standards is Green. Detailed technical specs of data storage, encryption, or data breaches are Red."
