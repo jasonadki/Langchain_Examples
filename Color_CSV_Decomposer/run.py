@@ -13,6 +13,8 @@ from langchain.schema import (
 from dotenv import load_dotenv, find_dotenv
 import streamlit as st
 
+import tabula
+
 
 def process_file(dirpath, file):
 
@@ -21,13 +23,20 @@ def process_file(dirpath, file):
     # Get the path to the csv file
     dirpath = os.path.join(dirpath, file)
 
-    # Read in the csv file and print the rows
+    # Get the file name from the path remove the extension
+    file_name = os.path.splitext(os.path.basename(dirpath))[0]
+
+    # # Read in the csv file and print the rows
     df = pd.read_csv(dirpath)
     df = df.dropna()
     df = df.reset_index(drop=True)
+    # tables = extract_tables_from_pdf(dirpath)
+    # df = pd.concat(tables, ignore_index=True)
+
+
 
     # Load the model
-    model = ChatOpenAI(model_name="gpt-3.5-turbo-16k")
+    model = ChatOpenAI(model_name="gpt-4")
     
     # Load the template that is prompting the agent
     with open('snippet_prompt_template.txt', 'r') as f:
@@ -49,6 +58,7 @@ def process_file(dirpath, file):
 
         for i in range(len(response_list)):
             results.append({
+                "Document_Name": file_name,
                 "UUID": str(uuid4()),
                 "Description": response_list[i][0],
                 "Code": response_list[i][1],

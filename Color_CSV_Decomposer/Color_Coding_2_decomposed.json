@@ -1,118 +1,189 @@
 {
     "Information": [
         {
-            "UUID": "ed220421-830f-41eb-a798-1ce5a6f3fea7",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "57a0eec4-892c-4bef-9c7f-8ac3978bb96f",
             "Description": "The general infrastructure supporting the project",
             "Code": "Green"
         },
         {
-            "UUID": "b033c8bb-2e19-485b-aab8-1beace74b292",
-            "Description": "Detailed infrastructural blueprints and potential weaknesses",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "228fa925-fb15-458d-b65f-5c8fcf0e84ef",
+            "Description": "Detailed infrastructural blueprints",
             "Code": "Red"
         },
         {
-            "UUID": "cbc0efa1-f09e-434c-8fef-60682c022883",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "033f83c3-0c39-4bff-84d3-5a989346812f",
+            "Description": "Potential weaknesses",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "6b7d9c83-3dbb-40b0-a572-3093388f59b3",
             "Description": "Revealing the broad professional backgrounds and disciplines involved in the team",
             "Code": "Green"
         },
         {
-            "UUID": "2ec51b07-0002-442b-906d-47418d7a486a",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "77ac0cec-dd19-416f-ae2e-4ace956c70bc",
             "Description": "Detailed profiles and personal information of team members",
             "Code": "Yellow"
         },
         {
-            "UUID": "28f1b72f-e225-48f2-9aad-59941013a7f0",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "14c1df0b-cc7a-4cf9-8701-16eb05bb5103",
             "Description": "Public acknowledgement of vendors or external entities participating in the project",
             "Code": "Green"
         },
         {
-            "UUID": "e131d179-037c-4c33-90d6-d6a20f13413c",
-            "Description": "Detailed contracts, specific equipment or services provided by vendors",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "6338fe59-4bf5-4457-ab36-f43796970993",
+            "Description": "Detailed contracts provided by vendors",
             "Code": "Red"
         },
         {
-            "UUID": "abe6ec32-80dd-45ae-adf4-ab62cb687a15",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "1bad7c34-3426-45b1-8ba6-0abef6f24ddf",
+            "Description": "Specific equipment provided by vendors",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "b8726c00-dd92-4800-b597-aa9b841c89d0",
+            "Description": "Services provided by vendors",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "e0ae1501-c1a1-4d1f-8da0-cbcb62bd94fe",
             "Description": "Publicly available information regarding project compliance with laws and regulations",
             "Code": "Green"
         },
         {
-            "UUID": "1716ac75-f042-42cd-862b-11057c044075",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "087e6b82-264e-4a1b-a420-1bbbab9bc995",
             "Description": "Detailed documentation about legal challenges or disputes",
             "Code": "Red"
         },
         {
-            "UUID": "2872414d-229f-4ba6-beaa-4c3baa2a81a0",
-            "Description": "Broad geographical areas where project operations",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "64b586d7-de5a-4fc9-b74c-e18a6c3ffa38",
+            "Description": "Broad geographical areas where project operations are occurring",
             "Code": "Green"
         },
         {
-            "UUID": "c6c0da82-674a-4c3b-b652-10dd3fe621d8",
-            "Description": "occurring",
-            "Code": "Green"
-        },
-        {
-            "UUID": "fbc32a85-066a-49e7-b6b2-4449cf23731f",
-            "Description": "Specific locations",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "623d30da-c5c3-407d-94ca-7c4fff33c635",
+            "Description": "Specific locations, latitude and longitude coordinates, or sensitive regional details",
             "Code": "Red"
         },
         {
-            "UUID": "c8535ea3-d378-4348-80d1-77b4146d8d7a",
-            "Description": "latitude and longitude coordinates",
-            "Code": "Red"
-        },
-        {
-            "UUID": "7fa07f0f-44ab-4c6d-a211-b7a8f8b125af",
-            "Description": "or sensitive regional details",
-            "Code": "Red"
-        },
-        {
-            "UUID": "b0ac9518-ee96-453c-8bbd-96d0ff2689d5",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "cb8d84b9-a35e-4422-aeea-8cf56b99a6fc",
             "Description": "General explanation of security protocols to assure stakeholders",
             "Code": "Green"
         },
         {
-            "UUID": "b31ad111-aebd-42fc-9bee-7d186596e436",
-            "Description": "Specific information about system vulnerabilities, penetration tests, or breaches",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "9f58a31d-139d-4bd8-9d06-cacedd448e7f",
+            "Description": "Specific information about system vulnerabilities",
             "Code": "Red"
         },
         {
-            "UUID": "52f6ba9e-26ef-4b5a-ad32-f6d25c3da320",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "433769b1-0c9d-4311-9f59-14f4646f46d8",
+            "Description": "Penetration tests",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "f29e8074-0f51-4e49-9ae9-52df2559ac7e",
+            "Description": "Breaches",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "d33dace5-966c-46c6-99f7-3e67fc90aa0f",
             "Description": "General themes and messages shared with media",
             "Code": "Green"
         },
         {
-            "UUID": "71310f0f-d449-43b7-8251-122ba9435bb6",
-            "Description": "Unpublished press releases, off-the-record conversations, or strategic media plans",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "bc7c30d7-224b-4b97-8d89-5a97e13099cb",
+            "Description": "Unpublished press releases",
             "Code": "Red"
         },
         {
-            "UUID": "45b189a7-1c88-448f-b6d5-665101fef203",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "e002e343-fc7d-4cfc-bd62-4d4877187c29",
+            "Description": "Off-the-record conversations",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "c5470f59-8699-4200-8229-4bf3aa162bfe",
+            "Description": "Strategic media plans",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "2de87d6f-210a-4680-a635-7cc26591517a",
             "Description": "A high-level timeline for project goals",
             "Code": "Green"
         },
         {
-            "UUID": "10d1d140-843a-4dc0-a7cd-02d00b503cf7",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "953dfd96-29fd-4bf7-843b-49d7968a585c",
             "Description": "Detailed project schedule with specific dates for sensitive milestones",
             "Code": "Yellow"
         },
         {
-            "UUID": "8c68093c-e66f-4a3a-9c09-9da4af7a2141",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "f4ab5c6e-2884-42bb-a6ee-4234ac5234b4",
             "Description": "Broad strategy of the project's procurement process",
             "Code": "Green"
         },
         {
-            "UUID": "238c80c0-49a3-42fa-b9bf-67dcbbefba1d",
-            "Description": "Specific suppliers, cost data, or contractual agreements",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "1a2dc676-ee29-4242-90c7-0824fb132d6e",
+            "Description": "Specific suppliers",
             "Code": "Red"
         },
         {
-            "UUID": "a1f123c5-a3e8-4df0-b9a3-d8f83cef3e43",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "57bd3a72-ee3e-42f7-ab10-bf62a29130a0",
+            "Description": "cost data",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "746cf7db-0b29-45a2-8ed6-aff85fc39f54",
+            "Description": "contractual agreements",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "df0581c3-ee9b-44c2-b5f0-b750c099f9bd",
             "Description": "Assurance of adherence to data protection standards",
             "Code": "Green"
         },
         {
-            "UUID": "1c7a0696-f26d-424c-8a18-2ef4f043c411",
-            "Description": "Detailed technical specs of data storage, encryption, or data breaches",
+            "Document_Name": "Color_Coding_2",
+            "UUID": "2ff75a63-3103-414e-8767-df7eba5aa363",
+            "Description": "Detailed technical specs of data storage",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "c191072a-1e53-48e5-8e5d-81369c3b5fba",
+            "Description": "Encryption details",
+            "Code": "Red"
+        },
+        {
+            "Document_Name": "Color_Coding_2",
+            "UUID": "3d397076-0442-46d5-9a11-a16b8c4a08d0",
+            "Description": "Data breach details",
             "Code": "Red"
         }
     ]
