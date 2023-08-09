@@ -61,7 +61,7 @@ def get_response_from_query(db, query, k=4):
     docs = db.similarity_search(query, k=k)
     docs_page_content = " ".join([d.page_content for d in docs])
 
-    llm = OpenAI(model_name="text-davinci-003")
+    llm = OpenAI(model_name="gpt-4")
 
     prompt = PromptTemplate(
         input_variables=["question", "docs"],
@@ -75,7 +75,7 @@ def get_response_from_query(db, query, k=4):
         
         If you feel like you don't have enough information to answer the question, say "I don't know".
         
-        Your answers should be verbose and detailed.
+        Your answers should be verbose and detailed. If there are multiple interpretations always present the more serious color (Red > Yellow > Green) first.
         """,
     )
 
@@ -93,7 +93,7 @@ def get_response_from_query(db, query, k=4):
 
 
 def main():
-    st.title("Proposal Assistant")
+    st.title("Color Coding Assistant")
     
     pdf = st.file_uploader("Upload a PDF", type="json")
     
@@ -105,7 +105,10 @@ def main():
             # str(doc.metadata["page"]) + ":", doc.page_content[:800]
             st.write(response)
             for doc in docs:
-                st.write(str(doc))
+                # st.write(str(doc.metadata['Document_Name']) + "|" + str(doc.metadata['Description']) + ' | ' + str(doc.metadata['Code']))
+                # Write the response in the format: [Description] = (Code) - [Document_Name]
+                # The Code should be colored based on the color of the code
+                st.write(f"**{doc.metadata['Description']} = ({doc.metadata['Code']})** - {doc.metadata['Document_Name']}")
                 st.write()
             # st.write(docs)
             
