@@ -2,19 +2,19 @@
     "Information": [
         {
             "Document_Name": "Color_Coding_1 - Copy",
-            "UUID": "c1a94df0-be00-4869-93bd-ec00c9a2c1e5",
-            "Description": "The fact the DOF would have interest in this topic area",
+            "UUID": "b33e6287-2ebb-4295-bf52-ab5989776cb0",
+            "Description": "The fact that the Department of Finance (DOF) would have interest in this topic area",
             "Code": "Green"
         },
         {
             "Document_Name": "Color_Coding_1 - Copy",
-            "UUID": "a0ef14f4-1483-4132-9601-0accd8cabe45",
-            "Description": "Correlation to funding account numbers and the DOF",
+            "UUID": "4cb45df7-58a9-41c8-852c-c72ba46b5e5a",
+            "Description": "Correlation between funding account numbers and the Department of Finance (DOF)",
             "Code": "Yellow"
         },
         {
             "Document_Name": "Color_Coding_1 - Copy",
-            "UUID": "7ede24b5-bc19-4dda-abc8-8248fcddabc9",
+            "UUID": "ee3e3657-6d3f-4ba7-9ae8-7e962b9ffb62",
             "Description": "Information revealing funding obligations and expenditure rates associated with this project",
             "Code": "Yellow"
         }

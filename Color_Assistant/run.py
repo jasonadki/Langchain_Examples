@@ -93,7 +93,7 @@ def get_response_from_query(db, query, k=4):
 
 
 def main():
-    st.title("Color Coding Assistant")
+    st.title("Cyber Digital Revolution: Color Coding Assistant")
     
     pdf = st.file_uploader("Upload a PDF", type="json")
     
@@ -102,25 +102,14 @@ def main():
         query = st.text_input("Ask a question")
         if query:
             response, docs = get_response_from_query(db, query)
-            # str(doc.metadata["page"]) + ":", doc.page_content[:800]
             st.write(response)
             for doc in docs:
-                # st.write(str(doc.metadata['Document_Name']) + "|" + str(doc.metadata['Description']) + ' | ' + str(doc.metadata['Code']))
                 # Write the response in the format: [Description] = (Code) - [Document_Name]
-                # The Code should be colored based on the color of the code
                 st.write(f"**{doc.metadata['Description']} = ({doc.metadata['Code']})** - {doc.metadata['Document_Name']}")
                 st.write()
-            # st.write(docs)
             
 
 
 if __name__ == "__main__":
-    # # Example usage:
-    # pdf_url = "Resources/Halcyon - Aeolus.pdf"
-    # db = create_db_from_pdf(pdf_url)
-
-    # query = "How much will the proposal cost?"
-    # response, docs = get_response_from_query(db, query)
-    # print(response, docs)
     
     main()
