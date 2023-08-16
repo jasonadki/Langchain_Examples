@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoso Task Pane Add-in</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
+
+    <!-- Template styles -->
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        // Add your JavaScript code here (like the one you shared earlier, including the updated 'getAnswerFromBot' function)
+    </script>
+</head>
+
+<body class="ms-font-m ms-welcome ms-Fabric">
+    <header class="ms-welcome__header ms-bgColor-neutralLighter">
+        <img width="90" height="90" src="../../assets/Cyber_DR_Logo.png" alt="Contoso" title="Contoso" />
+        <h2 class="ms-font-su">Color Assistant</h2>
+    </header>
+    <section id="sideload-msg" class="ms-welcome__main">
+        <h2 class="ms-font-xl">Please <a target="_blank" href="https://learn.microsoft.com/office/dev/add-ins/testing/test-debug-office-add-ins#sideload-an-office-add-in-for-testing">sideload</a> your add-in to see app body.</h2>
+    </section>
+    <main id="app-body" class="ms-welcome__main" style="display: none;">
+        <button id="askBot">Colorize</button>
+        
+        <div id="spinner" class="custom-spinner" style="display:none;"></div>
+
+        
+        <div id="result">Reasoning Displayed Here.</div>
+        
+        <div id="references"></div>
+    </main>
+</body>
+
+</html>

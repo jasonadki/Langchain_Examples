@@ -1,2 +1,63 @@
 # Ignore environment variables with API keys
 .env
+
+# Node.js & npm
+**/node_modules/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+**/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+**/pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm caches and histories
+**/.npm
+**/.node_repl_history
+
+# VS Code directories
+**/.vscode/
+
+# eslint and tsc caches
+**/.eslintcache
+**/.tscache
+
+# nodemon logs
+**/nodemon.log
+
+# Yarn Integrity file
+**/.yarn-integrity
+
+# dotenv environment variables file
+**/.env
+**/.env*.local
+
+# Compiled output
+**/dist
+
+# Next.js build output
+**/.next
+**/out
+
+# nyc test coverage
+**/.nyc_output
+
+# Grunt intermediate storage
+**/.grunt
+
+# Bower dependency directory
+**/bower_components
+
+# macOS Finder
+.DS_Store
