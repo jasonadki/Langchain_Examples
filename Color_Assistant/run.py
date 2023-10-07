@@ -61,7 +61,7 @@ def get_response_from_query(db, query, k=4):
     docs = db.similarity_search(query, k=k)
     docs_page_content = " ".join([d.page_content for d in docs])
 
-    llm = OpenAI(model_name="gpt-4")
+    llm = OpenAI(model_name="gpt-3.5-turbo")
 
     prompt = PromptTemplate(
         input_variables=["question", "docs"],

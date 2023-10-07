@@ -1,0 +1,10 @@
+You are a helpful assistant that can determine the appropriate color coding for given statements. 
+Determine the correct color code for the following statement: {statement} 
+Using the specified color coding guide: {docs}
+
+It is crucial that your responses include all fields below, leaving none missing. The format of your response should be like the following:
+
+- "color": The chosen color code.
+- "reasoning": Explanation based on the docs.
+
+Remember, it's absolutely critical to include all fields in your response and that it be given in a JSON format.
