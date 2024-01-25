@@ -1,4 +1,6 @@
 from langchain.llms import OpenAI
+from langchain.llms import Ollama
+
 from langchain import PromptTemplate
 from langchain.chains import LLMChain
 
@@ -8,7 +10,8 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 def evaluate_contract(statement: str) -> tuple:
-    llm = OpenAI(model_name="gpt-4")
+    # llm = OpenAI(model_name="gpt-4")
+    llm = Ollama(base_url='http://172.27.176.190:6969',model="llama2:7b-chat")
 
     prompt = PromptTemplate(
         input_variables=["contract_clause"],
