@@ -14,7 +14,8 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f2f2f2;
+
+            background-color: #5b7586;
         }
 
         #chat-container {
@@ -139,11 +140,51 @@
                 background-color: #e2e2e2;
             }
         }
+
+        #toggle-prompt-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #toggle-prompt-btn:hover {
+            background-color: #0056b3;
+        }
+
+        #custom-prompt {
+            position: absolute;
+            top: 40px;
+            right: 10px;
+            width: 300px;
+            height: 100px;
+            border: 1px solid #bbb;
+            border-radius: 10px;
+            padding: 10px;
+            display: none;
+            background-color: #f9f9f9;
+            resize: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9em;
+            line-height: 1.4;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 2;
+        }
     </style>
 </head>
 
 <body>
     <div id="chat-container">
+        <button id="toggle-prompt-btn">Custom Prompt</button>
+        <textarea id="custom-prompt"
+            placeholder="Enter custom prompt here...">You are a helpful AI assistant talking with a human. If you do not know an answer, just say 'I don't know', do not make up an answer.</textarea>
+
         <div id="chat-box">
         </div>
         <div id="input-area">
@@ -154,12 +195,15 @@
     </div>
     <script>
         document.getElementById('send-button').addEventListener('click', function () {
-            var input = document.getElementById('message-input');
-            var message = document.getElementById('message-input').value.trim();
+            var messageInput = document.getElementById('message-input');
+            var promptInput = document.getElementById('custom-prompt');
+            var message = messageInput.value.trim();
+            var customPrompt = promptInput.value.trim();
+
             if (message) {
                 displayUserMessage(message);
-                simulateBotResponse(message);
-                input.value = '';
+                simulateBotResponse(message, customPrompt);
+                messageInput.value = '';
             }
         });
 
@@ -171,6 +215,11 @@
             chatBox.appendChild(newMessage);
             chatBox.scrollTop = chatBox.scrollHeight; // Auto scroll to bottom
         }
+
+        document.getElementById('toggle-prompt-btn').addEventListener('click', function () {
+            var customPrompt = document.getElementById('custom-prompt');
+            customPrompt.style.display = customPrompt.style.display === 'block' ? 'none' : 'block';
+        });
 
         function displayBotMessage(message) {
             var chatBox = document.getElementById('chat-box');
@@ -209,15 +258,15 @@
             indicator.innerHTML = ''; // Clear the dots
         }
 
-        // Simulate bot response
-        function simulateBotResponse(userMessage) {
+        // Modify simulateBotResponse to include the custom prompt
+        function simulateBotResponse(userMessage, customPrompt) {
             var typingMessageContainer = createTypingIndicator();
             fetch('/get_response', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ message: userMessage }),
+                body: JSON.stringify({ message: userMessage, prompt: customPrompt }),
             })
                 .then(response => response.json())
                 .then(data => {
