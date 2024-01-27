@@ -23,7 +23,7 @@ To set up and run the application:
 3. **Interacting with the Chatbot**: The chatbot will respond based on the customized prompt and your input.
 
 ## Application Screenshot
-![Image Description](example.png)
+![Image Description](example.PNG)
 
 
 ## Technologies Used
